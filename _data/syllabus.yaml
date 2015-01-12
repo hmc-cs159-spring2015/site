@@ -4,8 +4,9 @@ past:
     title: Introduction
     slides: 
     reading:
+      -
         author: Lee
-        title:  Linguistics
+        title:  “I’m sorry Dave, I’m afraid I can’t do that” -  Linguistics, Statistics, and Natural Language Processing circa 2001
         url: http://www.cs.cornell.edu/home/llee/papers/cstb.pdf
   -
     date: 2015-01-26
