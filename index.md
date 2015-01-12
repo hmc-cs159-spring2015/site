@@ -22,13 +22,13 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 Instructor
-:  [Julie Medero] (http://cs.hmc.edu/~julie)
+:  [Julie Medero](http://cs.hmc.edu/~julie)
 
 Grutor
 : Mike Bartoli
 
 Discussion Forum
-: [Piazza](TBD)
+: [Piazza](https://piazza.com/class/i4ugmh3p8hx459)
 
 Time and place
 : MW 9:35-10:50, Sprague LSC
