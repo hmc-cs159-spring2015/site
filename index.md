@@ -22,31 +22,31 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 Instructor
-: [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/) - Office hours on Mondays from 10:30am-11:30am in Levine 506
+:  [Julie Medero] (http://cs.hmc.edu/~julie)
 
-Teaching Assistants
-: Justin Chiu - Office hours TBD
-: Mitchell Stern - Office hours TBD
+Grutor
+: Mike Bartoli
 
 Discussion Forum
-: [Piazza](https://piazza.com/upenn/spring2015/cis526)
+: [Piazza](TBD)
 
 Time and place
-: Tuesdays and Thursdays 4:30-6pm, David Rittenhouse Laboratory (DRL) A5
+: MW 9:35-10:50, Sprague LSC
+
+Office hours
+: TBD
 
 Textbook
-: [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
-by <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> 
-You can purchase <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">the Statistical Machine Translation textbook from Amazon</a>.
+: Foundations of Statistical Natural Language Processing by Chris Manning and Hinrich Schütze
 
 Grading
 : To understand how machine translation works, you must build a translation system.
 We will mainly grade hands-on work.
 
-(To be updated):
-
-* 5 programming assignments (10% each)
-* Term project (40%)
+* Weekly homeworks (20% total)
+* Midterm exam (20%)
+* Final exam (20%)
+* Three programming projects (10% each)
 * In-class presentation: Language in ten minutes (10%)
 
 
