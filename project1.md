@@ -3,12 +3,12 @@ layout: default
 img: rosetta
 img_url: http://www.flickr.com/photos/calotype46/6683293633/
 caption: Rosetta stone (credit&#59; calotype46)
-title: Homework 1 | Alignment
-active_tab: homework
+title: Project 1 | Alignment
+active_tab: project
 ---
 
 <div class="alert alert-info">
-  Implementation due Thursday February 6th, 11:59pm.
+  Implementation due date tbd...
 </div>
 
 Alignment <span class="text-muted">Challenge Problem 1</span>
@@ -59,10 +59,10 @@ does not capture every nuance, but it is still very useful.
 Getting Started
 ---------------
 
-You must have git and python (2.7) on your system to run the assignments.
+You must have git and python (3.4) on your system to run the assignments.
 Once you've confirmed this, run this command:
 
-    git clone https://github.com/callison-burch/dreamt.git
+    git clone https://github.com/hmc-cs159-spring2015/dreamt.git
 
 In the `aligner` directory you will find a python program called
 `align`, which contains a complete but very simple alignment algorithm.
