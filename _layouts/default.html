@@ -63,9 +63,16 @@
             <li id="project">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
               <ol class="dropdown-menu">
-                <li><a href="project1.html">Alignment (due )</a></li>
-                <li><a href="project2.html">Decoding (due </a></li>
-		<li><a href="project3.html">Evaluation (due )</a></li>
+                {% for lecture in site.data.syllabus.past %}
+		  {% if lecture.projectnumber %}
+		    <li><a href="project{{ lecture.projectnumber }}.html">
+		        {{ lecture.projecttitle }} (Due 
+		        {% if lecture.projectmonday %} {{ lecture.monday | date: "%b %d"}} 
+		        {% else if lecture.projectwednesday %} {{ lecture.wednesday | date: "%b %d"}}
+		        {% endif %} )
+		    </a></li>
+                  {% endif %}
+		{% endfor %}
               </ol>
             </li>
             <li id="lin10"><a href="lin10.html">Presentation</a></li>

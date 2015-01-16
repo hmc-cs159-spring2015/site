@@ -64,11 +64,9 @@ past:
         author: tbd
         title: tbd
     preview: 5
-    deadline:
-      -
-        title: Project 1
-        url:
-        day: Wednesday
+    projectnumber: 1
+    projectwednesday: true
+    projecttitle: Alignment
   -
     monday: 2015-03-02
     wednesday: 2015-03-04
@@ -109,11 +107,9 @@ past:
         author: tbd
         title: tbd
     preview: 10
-    deadline: 
-      -
-        title: Project 2
-        url: 
-        day: Wednesday
+    projectnumber: 2
+    projectwednesday: true
+    projecttitle: Decoding
   -
     monday: 2015-04-13
     wednesday: 2015-04-15
@@ -144,8 +140,6 @@ past:
       author: tbd
       title: tbd
     preview: 13
-    deadline: 
-      -
-        title: Project 3
-        url: 
-        day: Monday
+    projectnumber: 3
+    projectmonday: true
+    projecttitle: Evaluation
