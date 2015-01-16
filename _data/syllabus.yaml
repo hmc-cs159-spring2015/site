@@ -1,6 +1,6 @@
 past:
   -
-    date: 2015-01-21
+    wednesday: 2015-01-21
     title: Introduction
     slides: 
     reading:
@@ -9,208 +9,204 @@ past:
         title:  “I’m sorry Dave, I’m afraid I can’t do that” -  Linguistics, Statistics, and Natural Language Processing circa 2001
         url: http://www.cs.cornell.edu/home/llee/papers/cstb.pdf
   -
-    date: 2015-01-26
-    title: Linguistics Crash Course
+    monday: 2015-01-26
+    wednesday: 2015-01-28
+    title: Linguistics Crash Course <br/> Introduction to Corpora
     slides: 
     reading:
       -
         author: MS
-        title: Chapter 3
-  -
-    date: 2015-01-28
-    title: Working with Corpora
-    slides: 
-    reading: 
+        title: Chapter 3, 4
       -
         author: NLTK Book
         title: Chapter 1
+    deadline:
       -
-        author: MS
-        title: Chapter 4
+        title: (P)Review 1
+        url: 
+        day: Monday
   -
-    date: 2015-02-02
-    title: Working with Corpora (Hands-on)
+    monday: 2015-02-02
+    wednesday: 2015-02-04
+    title: Processing Corpora
     slides: 
     reading:
       -
         author: NLTK Book
-        title: Chapter 2
-  -
-    date: 2015-02-04
-    title: Computational Tools Crash Course
-    slides: 
-    reading:
+        title: Chapter 2, 3
+    deadline:
       -
-        author: NLTK Book
-        title: Chapter 3
+        title: (P)Review 2
+        url: 
+        day: Monday
   -
-    date: 2015-02-09
+    monday: 2015-02-09
+    wednesday: 2015-02-11
     title: Word Alignment
     reading:
       -
         author: MS
         title: Chapter 13
-  -
-    date: 2015-02-11
-    title: In-class writing exercise
-    slides: hw-writing-exercise.html
-    reading:
       -
         author: NLTK Book
         title: Chapter 4
+    slides:
+      -
+        monday: hw-writing-exercise.html
+    deadline:
+      -
+        title: (P)Review 3
+        url: 
+        day: Monday
   -
-    date: 2015-02-16
+    monday: 2015-02-16
+    wednesday: 2015-02-18
     title: EM
     slides: 
     reading:
       -
         author: MS
         title: Chapter 14
-  -
-    date: 2015-02-18
-    title: EM
-    slides: 
-    reading:
+    deadline:
       -
-        author: tbd
-        title: tbd
+        title: (P)Review 4
+        url: 
+        day: Monday
   -
-    date: 2015-02-23
+    monday: 2015-02-23
+    wednesday: 2015-02-25
     title: Learning Better Models
-    slides: 
-    reading:
-      -
-        author: tbd
-        title: tbd
-  -
-    date: 2015-02-25
-    title: Phrase-Based Models
     slides: 
     reading:
       -
         author: Philipp Koehn, Franz Josef Och, Daniel Marcu
         title: Statistical Phrase-Based Translation
         url: http://www.isi.edu/~marcu/papers/phrases-hlt2003.pdf
+      -
+        author: tbd
+        title: tbd
+    deadline:
+      -
+        title: (P)Review 5
+        url: 
+        day: Monday
+      -
+        title: Project 1
+        url
+        day: Wednesday
   -
-    date: 2015-03-02
-    title: Midterm Review
-    slides: 
+    monday: 2015-03-02
+    wednesday: 2015-03-04
+    title: Review, Miderm
+    deadline:
+      -
+        title: (P)Review 6
+        url: 
+        day: Monday
   -
-    date: 2015-03-04
-    title: Discuss Midterm
-  -
-    date: 2015-03-09
+    monday: 2015-03-09
+    wednesday: 2014-03-11
     title: Language Models
     slides:  
     reading:
       - 
         author: MS
         title: Chapter 6
+    deadline: 
+      -
+        title: (P)Review 7
+        url: 
+        day: Monday
   -
-    date: 2014-03-11
-    title: Language Models
-    slides: 
-  -
-    date: 2015-03-23
+    monday: 2015-03-23
     title: Decoding
     slides: 
     reading:
       -
         author: tbd
         title: tbd
-  -
-    date: 2015-03-25
-    title: Limiting Search Space
-    slides: 
-    reading:
+    deadline: 
       -
-        author: tbd
-        title: tbd
+        title: (P)Review 8
+        url: 
+        day: Monday
   -
-    date: 2015-03-30
+    monday: 2015-03-30
+    wednesday: 2015-04-01
     title: Evaluation
     slides: 
     reading: 
       -
         author: tbd
         title: tbd
-  -
-    date: 2015-04-01
-    title: Evaluation
-    reading:
+    deadline: 
       -
-        author: tbd
-        title: tbd
+        title: (P)Review 9
+        url: 
+        day: Monday
   - 
-    date: 2014-04-06
-    title: Evaluation
+    monday: 2014-04-06
+    wednesday: 2015-04-08
+    title: Handling Synonyms
     reading:
       -
         author: tbd
         title: tbd
-  -
-    date: 2015-04-08
-    title: Dealing with Synonyms
-    slides: 
-    reading:
+    deadline: 
       -
-        author: tbd
-        title: tbd
+        title: (P)Review 10
+        url: 
+        day: Monday
+      -
+        title: Project 2
+        url: 
+        day: Wednesday
   -
-    date: 2015-04-13
-    title: Syntactic Trees and PCFGs
+    monday: 2015-04-13
+    wednesday: 2015-04-15
+    title: Incorporating Syntax
     slides:
     reading:
       -
         author: MS
-        title: Chapter 11
-  -
-    date: 2015-04-15
-    title: Syntactic Parsing
-    reading:
+        title: Chapter 11, 12
       -
-        author: NLTK
+        author: NLTK Book
         title: Chapter 8
+    deadline: 
       -
-        author: MS
-        title: Chapter 12
+        title: (P)Review 11
+        url: 
+        day: Monday
   -
-    date: 2015-04-20
+    monday: 2015-04-20
+    wednesday: 2014-04-22
     title: Advanced Topics / TBD
     slides: 
     reading:
     -
       author: tbd
       title: tbd
+    deadline: 
+      -
+        title: (P)Review 12
+        url: 
+        day: Monday
   -
-    date: 2015-04-22
-    title: Advanced Topics / TBD
+    monday: 2014-04-27
+    wednesday: 2014-04-29
+    title: Current Topics in MT
     slides: 
     reading:
     -
       author: tbd
       title: tbd
-  -
-    date: 2014-04-22
-    title: Advanced Topics / TBD
-    slides: 
-    reading:
-    -
-      author: tbd
-      title: tbd
-  -
-    date: 2014-04-27
-    title: Advanced Topics / TBD
-    slides: 
-    reading:
-    -
-      author: tbd
-      title: tbd
-  -
-    date: 2014-04-29
-    title: Advanced Topics / TBD
-    slides: 
-    reading:
-    -
-      author: tbd
-      title: tbd
+    deadline: 
+      -
+        title: (P)Review 13
+        url: 
+        day: Monday
+      -
+        title: Project 3
+        url: 
+        day: Wednesday

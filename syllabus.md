@@ -9,13 +9,14 @@ active_tab: syllabus
 <table class="table table-striped"> 
   <tbody>
     <tr>
-      <th>Date</th>
+      <th>Date(s)</th>
       <th>Topic</th>
-      <th>Readings </th>
+	  <th>Due</th>
+      <th>Reading before Monday</th>
     </tr>
     {% for lecture in site.data.syllabus.past %}
     <tr>
-      <td>{{ lecture.date | date: "%b %d" }}</td>
+      <td>{{ lecture.monday | date: "%b %d" }}&nbsp;{{ lecture.wednesday | date: "%b %d" }}</td>
       <td>
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
@@ -27,6 +28,18 @@ active_tab: syllabus
   {% if lecture.language %}
 	<br/><a href="lin10.html">Language in 10</a>: <a href="{{ lecture.language_slides }}">{{ lecture.language }}</a>
         {% endif %}
+      </td>
+	  <td>
+          {% if lecture.deadline %}
+		  <ul class="fa-ul">
+		  {% for deadline in lecture.deadline %}
+		      <li> {% if deadline.url %}
+                          <a href="{{ deadline.url }}">{{ deadline.title }}</a>
+                      {% else %}
+                          {{ deadline.title }} 
+                      {% endif %}
+                      ({{ deadline.day }})
+	          </li>
       </td>
       <td>
         {% if lecture.reading %}
