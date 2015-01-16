@@ -41,17 +41,9 @@ active_tab: syllabus
 	          <a href="hw{{ lecture.preview}}.html">PReview {{lecture.preview}}</a>
               <br/>
 		  {% endif %}
-		  {% if lecture.deadline %}
-              {% for deadline in lecture.deadline %}
-		          {% if deadline.url %}
-                     <a href="{{ deadline.url }}">{{ deadline.title }}</a>
-                  {% else %}
-                      {{ deadline.title }} 
-                  {% endif %}
-                  ({{ deadline.day }})
-	              <br/>
-		      {% endfor %}
-            {% endif %}
+		  {% if lecture.projectnumber %}
+	          <a href="project{{ lecture.projectnumber}}.html">{{lecture.projecttitle}}&nbsp;Project</a>
+          {% endif %}
       </td>
       <td>
         {% if lecture.reading %}
