@@ -47,20 +47,18 @@
 	    <li id="calendar"><a href="calendar.html">Calendar</a></li>
             <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
             <li id="homework">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">(P)review <span class="caret"></span></a>
               <ol class="dropdown-menu">
-                <li><a href="hw0.html">Setup</a></li>
-                <li><a href="hw1.html">Due </a></li>
-                <li><a href="hw2.html">Due </a></li>
-		<li><a href="hw3.html">Due </a></li>
-		<li><a href="hw4.html">Due </a></li>
-		<li><a href="hw5.html">Due </a></li>
-		<li><a href="hw6.html">Due </a></li>
-		<li><a href="hw7.html">Due </a></li>
-		<li><a href="hw8.html">Due </a></li>
-		<li><a href="hw9.html">Due </a></li>
-		<li><a href="hw10.html">Due </a></li>
-              </ol>
+                {% for lecture in site.data.syllabus.past %}
+		  {% if lecture.preview %}
+		    <li><a href="hw{{ lecture.preview }}.html">Due
+		        {% if lecture.monday %} {{ lecture.monday | date: "%b %d"}} 
+		        {% else %} {{ lecture.wednesday | date: "%b %d"}}
+		        {% endif %}
+		    </a></li>
+                  {% endif %}
+		{% endfor %}
+	      </ol>
             </li>
             <li id="project">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>

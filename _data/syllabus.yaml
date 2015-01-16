@@ -2,7 +2,7 @@ past:
   -
     wednesday: 2015-01-21
     title: Introduction
-    slides: 
+    preview: 0
     reading:
       -
         author: Lee
@@ -12,7 +12,6 @@ past:
     monday: 2015-01-26
     wednesday: 2015-01-28
     title: Linguistics Crash Course <br/> Introduction to Corpora
-    slides: 
     reading:
       -
         author: MS
@@ -20,25 +19,16 @@ past:
       -
         author: NLTK Book
         title: Chapter 1
-    deadline:
-      -
-        title: (P)Review 1
-        url: 
-        day: Monday
+    preview: 1
   -
     monday: 2015-02-02
     wednesday: 2015-02-04
     title: Processing Corpora
-    slides: 
     reading:
       -
         author: NLTK Book
         title: Chapter 2, 3
-    deadline:
-      -
-        title: (P)Review 2
-        url: 
-        day: Monday
+    preview: 2
   -
     monday: 2015-02-09
     wednesday: 2015-02-11
@@ -50,33 +40,21 @@ past:
       -
         author: NLTK Book
         title: Chapter 4
-    slides:
-      -
-        monday: hw-writing-exercise.html
-    deadline:
-      -
-        title: (P)Review 3
-        url: 
-        day: Monday
+    wednesdayslides: hw-writing-exercise.html
+    preview: 3
   -
     monday: 2015-02-16
     wednesday: 2015-02-18
     title: EM
-    slides: 
     reading:
       -
         author: MS
         title: Chapter 14
-    deadline:
-      -
-        title: (P)Review 4
-        url: 
-        day: Monday
+    preview: 4
   -
     monday: 2015-02-23
     wednesday: 2015-02-25
     title: Learning Better Models
-    slides: 
     reading:
       -
         author: Philipp Koehn, Franz Josef Och, Daniel Marcu
@@ -85,65 +63,43 @@ past:
       -
         author: tbd
         title: tbd
+    preview: 5
     deadline:
       -
-        title: (P)Review 5
-        url: 
-        day: Monday
-      -
         title: Project 1
-        url
+        url:
         day: Wednesday
   -
     monday: 2015-03-02
     wednesday: 2015-03-04
     title: Review, Miderm
-    deadline:
-      -
-        title: (P)Review 6
-        url: 
-        day: Monday
+    preview: 6
   -
     monday: 2015-03-09
     wednesday: 2014-03-11
+    preview: 7
     title: Language Models
-    slides:  
     reading:
       - 
         author: MS
         title: Chapter 6
-    deadline: 
-      -
-        title: (P)Review 7
-        url: 
-        day: Monday
   -
     monday: 2015-03-23
     title: Decoding
-    slides: 
     reading:
       -
         author: tbd
         title: tbd
-    deadline: 
-      -
-        title: (P)Review 8
-        url: 
-        day: Monday
+    preview: 8
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
     title: Evaluation
-    slides: 
     reading: 
       -
         author: tbd
         title: tbd
-    deadline: 
-      -
-        title: (P)Review 9
-        url: 
-        day: Monday
+    preview: 9
   - 
     monday: 2014-04-06
     wednesday: 2015-04-08
@@ -152,11 +108,8 @@ past:
       -
         author: tbd
         title: tbd
+    preview: 10
     deadline: 
-      -
-        title: (P)Review 10
-        url: 
-        day: Monday
       -
         title: Project 2
         url: 
@@ -165,7 +118,6 @@ past:
     monday: 2015-04-13
     wednesday: 2015-04-15
     title: Incorporating Syntax
-    slides:
     reading:
       -
         author: MS
@@ -173,40 +125,27 @@ past:
       -
         author: NLTK Book
         title: Chapter 8
-    deadline: 
-      -
-        title: (P)Review 11
-        url: 
-        day: Monday
+    preview: 11
   -
     monday: 2015-04-20
     wednesday: 2014-04-22
     title: Advanced Topics / TBD
-    slides: 
     reading:
     -
       author: tbd
       title: tbd
-    deadline: 
-      -
-        title: (P)Review 12
-        url: 
-        day: Monday
+    preview: 12
   -
     monday: 2014-04-27
     wednesday: 2014-04-29
     title: Current Topics in MT
-    slides: 
     reading:
     -
       author: tbd
       title: tbd
+    preview: 13
     deadline: 
-      -
-        title: (P)Review 13
-        url: 
-        day: Monday
       -
         title: Project 3
         url: 
-        day: Wednesday
+        day: Monday
