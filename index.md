@@ -34,16 +34,26 @@ Time and place
 : MW 9:35-10:50, Sprague LSC
 
 Office hours
-: TBD
+: Monday 3:30-5:00, Thursday 2:30-4:00
 
 Textbook
 : Foundations of Statistical Natural Language Processing by Chris Manning and Hinrich Schütze
 
-Grading
-: To understand how machine translation works, you must build a translation system.
-We will mainly grade hands-on work.
+Learning Objectives
+: Students who complete this course will be able to:
 
-* Weekly homeworks (20% total)
+* Evaluate the performance of algorithms, including both qualitative
+  and quantitative analysis.
+* Describe the challenges that arise in analyzing human language,
+  including identifying specific techniques that can be used to work
+  with web-scale data collections.
+* Develop a system from scratch to train a supervised machine
+  translation model, run the system, and evaluate the system's performance.
+
+Grading
+: This course will focus on hands-on work.
+
+* Weekly (P)review homeworks (20% total, only 10 highest grades counted)
 * Midterm exam (20%)
 * Final exam (20%)
 * Three programming projects (10% each)

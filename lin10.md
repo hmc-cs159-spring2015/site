@@ -32,7 +32,7 @@ For inspiration, check out:
 * [World Atlas of Language Structures](http://wals.info/)
 
 Sign up for a date to share your language at
-[Our class google calendar](https://www.google.com/calendar/selfsched?sstoken=UUM3VWhtS1pGU0hBfGRlZmF1bHR8YzdkODZlZjhjNTlmOTBhYzVkYzQzMDU3NjdhYTAyNDA)
+[our class google calendar](https://www.google.com/calendar/selfsched?sstoken=UUM3VWhtS1pGU0hBfGRlZmF1bHR8YzdkODZlZjhjNTlmOTBhYzVkYzQzMDU3NjdhYTAyNDA)
 by claiming an appointment slot.
 
 We will grade on clarity and detail. Did you learn 
