@@ -22,7 +22,7 @@ active_tab: syllabus
         {% else %}  {{ lecture.monday | date: "%b %d" }}{% endif %}
         <br/>
         {% if lecture.wednesdayslides %}
-		  <a href="{{ slide.wednesdayslides }}">{{ lecture.wednesday | date: "%b %d"}}</a>
+		  <a href="{{ lecture.wednesdayslides }}">{{ lecture.wednesday | date: "%b %d"}}</a>
         {% else %}  {{ lecture.wednesday | date: "%b %d" }}{% endif %}
 	  </td>
       <td>
