@@ -50,7 +50,7 @@
               <ol class="dropdown-menu">
                 {% for lecture in site.data.syllabus.past %}
 		  {% if lecture.preview %}
-		    <li><a href="PReview{{ lecture.preview }}.pdf">Due
+		    <li><a href="handouts/PReview{{ lecture.preview }}.pdf">Due
 		        {% if lecture.monday %} {{ lecture.monday | date: "%b %d"}} 
 		        {% else %} {{ lecture.wednesday | date: "%b %d"}}
 		        {% endif %}
