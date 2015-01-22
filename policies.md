@@ -7,6 +7,18 @@ title: Course Policies
 active_tab: policies
 ---
 
+## Guiding Principles
+
+As a class, we agreed on the following guidelines that we can use to support each other's learning:
+
+1. DO ask (relevant) questions
+2. DO let us know if we go off-topic
+3. DO use examples in class
+4.  DO participate evenly (in class and on group projects)
+5. DO be on time
+6. DON'T use laptops in class
+7. DON'T bring a 5-course meal (coffee, bagel, etc. are fine, especially if that makes \# 5 easier for you!)
+
 ## Late Policy
 
 Because we often discuss the homework assignments in class, there will
