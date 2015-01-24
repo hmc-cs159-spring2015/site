@@ -8,7 +8,7 @@ active_tab: project
 ---
 
 <div class="alert alert-info">
-  Implementation due date tbd...
+  Due in-class Wednesday, February 25.
 </div>
 
 Alignment <span class="text-muted">Challenge Problem 1</span>
@@ -58,11 +58,19 @@ does not capture every nuance, but it is still very useful.
 
 Getting Started
 ---------------
+One team will work on each of the five extension choices listed under
+"Options." Sign up for the team you want to work on by adding a
+comment to the appropriate thread on Piazza. No more than 4 people can
+work on any team, so if 4 people have already added their names to a
+team, you'll need to pick a different one.
 
 You must have git and python (3.4) on your system to run the assignments.
-Once you've confirmed this, run this command:
+Once you've confirmed this, go to your fork's GitHub page, copy the clone URL on the right-hand side of the screen (we'll call this <fork-url>). run this command:
 
-    git clone https://github.com/hmc-cs159-spring2015/dreamt.git
+    git clone https://github.com/hmc-cs159-spring2015/aligner-<option>.git
+
+where "<option>" is the name of the option team that you want to
+join.
 
 In the `aligner` directory you will find a python program called
 `align`, which contains a complete but very simple alignment algorithm.
