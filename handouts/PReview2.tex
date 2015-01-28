@@ -1,0 +1,71 @@
+\documentclass[11pt,letterpaper,boxed]{hmcpset}
+
+\usepackage{savetrees}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+
+\name{Name: \underline{\hspace{5cm}}}
+\class{CS159: Natural Language Processing}
+\assignment{PReview \#2}
+\duedate{Due in class Feb 2, 2015}
+
+\begin{document}
+
+\section*{Review} 
+\begin{problem}
+Write a function that takes a text and generates all the bigrams in the text. It should then pick a random word in the text and iteratively
+pick a following word by randomly selecting a following word from the bigrams.
+
+Generate 20-word "samples" for your choice of 2 texts from the book texts. On your worksheet, specify which texts you used, any additional cleanup you did, and the resulting automatically-generated texts. 
+\end{problem}
+
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+ 
+\begin{problem}
+Tag sets commonly have separate parts of speech for the comparative ("-er") and superlative ("-est") forms of adjectives. For example, the Penn Treebank Set identifies the following parts of speech: 
+\begin{description}
+    \item[JJ] Adjective or ordinal number (third, regrettable, happy, exciting)
+    \item[JJR] Comparative adjective (fitter, happier)
+    \item[JJS] Superlative adjective (happiest, creepiest, proudest)
+\end{description}
+
+Do these categories match our definition of parts of speech as being categories of words that can show up in the same place? Give a context where a JJ would work, but a JJR or a JJS would not. Similarly, give a context where only a JJR would work, and one where only a JJS would work.
+
+(You can use the nltk similar() and common\_contexts() functions for ideas if you're stuck).
+\end{problem}
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+
+\pagebreak
+
+\section*{Preview} 
+
+\begin{problem}
+NLTK 2.4: Read in the texts of the State of the Union addresses, using the state\_union corpus reader. Count occurrences of men, women, and people in each document. What has happened to the usage of these words over time?
+\end{problem}
+\begin{solution}
+\vspace{10cm}
+\end{solution}
+
+\begin{problem}
+NLTK 3.7: Write regular expressions to match the following classes of
+strings:
+\begin{enumerate}
+   \item  A single determiner (assume that a, an, and the are the only determiners).
+    \item An arithmetic expression using integers, addition, and multiplication, such as 2*3+8.
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+\begin{enumerate}
+    \item \vspace{2cm}
+    \item \vspace{2cm}
+\end{enumerate}
+\end{solution}
+
+\end{document}
