@@ -27,6 +27,7 @@ past:
     monday: 2015-02-02
     wednesday: 2015-02-04
     title: Processing Corpora
+    wednesdaylanguage: Mai Ho (Korean)
     reading:
       -
         author: NLTK Book
@@ -35,6 +36,8 @@ past:
   -
     monday: 2015-02-09
     wednesday: 2015-02-11
+    mondaylanguage: Michael Culhane ()
+    wednesdaylanguage: James Saindon (Dutch)
     title: Word Alignment
     reading:
       -
@@ -48,6 +51,8 @@ past:
   -
     monday: 2015-02-16
     wednesday: 2015-02-18
+    mondaylanguage: Coline Devin (Farsi)
+    wednesdaylanguage: Shannon Lin (Italian)
     title: EM
     reading:
       -
@@ -57,6 +62,8 @@ past:
   -
     monday: 2015-02-23
     wednesday: 2015-02-25
+    mondaylanguage: Emma Davis (Japanese)
+    wednesdaylanguage: Ben Leader (Yiddish)
     title: Learning Better Models
     reading:
       -
@@ -86,6 +93,8 @@ past:
         title: Chapter 6
   -
     monday: 2015-03-23
+    wednesday: 2015-03-25
+    wednesdaylanguage: Meghana Rao (Swahili)
     title: Decoding
     reading:
       -
@@ -116,6 +125,7 @@ past:
   -
     monday: 2015-04-13
     wednesday: 2015-04-15
+    mondaylanguage: Maury Quijada (German)
     title: Incorporating Syntax
     reading:
       -
