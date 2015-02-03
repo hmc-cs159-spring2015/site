@@ -35,7 +35,7 @@ Time and place
 
 Office hours
 : Monday 3:30-5:00, Thursday 2:30-4:00 (Prof. Medero)
-: Sunday 6:00-8:00 (Mike)
+: Sunday 6:00-8:00, Olin 1261 (Mike)
 
 Textbook
 : Foundations of Statistical Natural Language Processing by Chris Manning and Hinrich Schütze
