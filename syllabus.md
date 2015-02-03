@@ -41,7 +41,7 @@ active_tab: syllabus
       </td>
 	  <td>
 	      {% if lecture.preview %}
-	          <a href="hw{{ lecture.preview}}.html">PReview {{lecture.preview}}</a>
+	          <a href="PReview{{ lecture.preview}}.pdf">PReview {{lecture.preview}}</a>
               <br/>
 		  {% endif %}
 		  {% if lecture.projectnumber %}
