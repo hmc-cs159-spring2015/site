@@ -28,6 +28,8 @@ past:
     wednesday: 2015-02-04
     title: Processing Corpora
     wednesdaylanguage: Korean (Mai)
+    mondayslides: slides/04_corpus2.pdf
+    wednesdayslides: slides/05_corpuslab.pdf
     reading:
       -
         author: NLTK Book
