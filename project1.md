@@ -11,7 +11,7 @@ active_tab: project
   Due in-class Wednesday, February 25.
 </div>
 
-Alignment <span class="text-muted">Challenge Problem 1</span>
+Alignment <span class="text-muted">Project 1</span>
 =============================================================
 
 Aligning words is a key task in machine translation. We start with
@@ -27,7 +27,7 @@ Getting documents aligned at the _sentence_ level like this is
 relatively easy: we can use paragraph boundaries and cues
 like the length and order of each sentence. But to learn a translation
 model we need alignments at the _word_ level. That's where you come
-in. **Your challenge is to write a program that aligns words 
+in. **Your task is to write a program that aligns words 
 automatically.** For example, given the sentence above, your program
 would ideally output these pairs:
 
@@ -59,20 +59,18 @@ does not capture every nuance, but it is still very useful.
 Getting Started
 ---------------
 One team will work on each of the five extension choices listed under
-"Options." Sign up for the team you want to work on by adding a
-comment to the appropriate thread on Piazza. No more than 4 people can
-work on any team, so if 4 people have already added their names to a
-team, you'll need to pick a different one.
+"Options." We'll sign up for these groups in class, and the group
+members will be added to this page. 
 
-You must have git and python (3.4) on your system to run the assignments.
+You must have git and python 3 on your system to run the assignment.
 Once you've confirmed this, go to your fork's GitHub page, copy the clone URL on the right-hand side of the screen (we'll call this <fork-url>). run this command:
 
     git clone https://github.com/hmc-cs159-spring2015/aligner-<option>.git
 
 where "<option>" is the name of the option team that you want to
-join.
+join. (This page will be updated when the group code forks are available).
 
-In the `aligner` directory you will find a python program called
+In your code directory you will find a python program called
 `align`, which contains a complete but very simple alignment algorithm.
 For every word, it computes the set of sentences that the word appears in. 
 Intuititvely, word pairs that appear in similar sets of sentences are likely
@@ -86,11 +84,7 @@ For any two sets $$X$$ and $$Y$$, $$\delta(X,Y)$$ will be a number between
 0 and 1. The baseline aligner will align any word pair with a 
 coefficient over 0.5. Run it on 1000 sentences:
 
-    python align -n 1000 > dice.a
-
-This command stores the output in `dice.a`. To compute accuracy, run:
-
-    python score-alignments < dice.a
+    python align --train 1000 --accuracy
 
 This compares the alignments against human-produced alignments, computing 
 [alignment error rate](http://aclweb.org/anthology-new/P/P00/P00-1056.pdf), 
@@ -142,56 +136,33 @@ recommend developing on a small data set (1000 sentences) with a few
 iterations of EM. When you see improvements on this small set, try it out on
 the complete data.
 
-Developing a Model 1 aligner should be enough to beat our baseline system
-and earn a passing grade. But alignment isn't a solved problem, and the goal of
+Developing a Model 1 aligner will be enough to eearn a passing grade. But alignment isn't a solved problem, and the goal of
 this assignment isn't for you to just implement a well-known algorithm. To 
 get full credit you **must** experiment with at least one additional
-model of your choice and document your work. Here are some ideas:
+model of your choice and present your findings. One team will work on
+each of the following options:
 
 * Implement [a model that prefers to align words close to the diagonal](http://aclweb.org/anthology/N/N13/N13-1073.pdf).
 * Implement an [HMM alignment model](http://aclweb.org/anthology-new/C/C96/C96-2141.pdf).
-* Implement [a morphologically-aware alignment model](http://aclweb.org/anthology/N/N13/N13-1140.pdf).
-* [Use *maximum a posteriori* inference under a Bayesian prior](http://aclweb.org/anthology/P/P11/P11-2032.pdf).
 * Train a French-English model and an English-French model and [combine their predictions](http://aclweb.org/anthology-new/N/N06/N06-1014.pdf).
 * Train a [supervised discriminative alignment model](http://aclweb.org/anthology-new/P/P06/P06-1009.pdf) on the annotated development set.
 * Train an [unsupervised discriminative alignment model](http://aclweb.org/anthology-new/P/P11/P11-1042.pdf).
-* Seek out additional [inspiration](http://scholar.google.com/scholar?q=word+alignment).
 
-But the sky's the limit! You are welcome to design your own model, as long 
-as you follow the ground rules:
+If you get your extension working and want to try other things, you're
+welcome to, as long as you follow the ground rules:
 
 Ground Rules
 ------------
 
-* You can work in independently or in groups of up to three, under these 
-  conditions: 
-  1. You must announce the group publicly on piazza.
-  1. You agree that everyone in the group will receive the same grade on the assignment. 
-  1. You can add people or merge groups at any time before the assignment is
-     due. You cannot drop people from your group once you've added them.
-* You must turn in three things:
-  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
-     as you like, up until the assignment deadline. The output will be evaluated 
-     using a secret metric, but the `grade` program will give you a good
-     idea of how well you're doing, and you can use the `check` program
-     to see whether your output is formatted correctly. Whoever has
-     the highest score at the deadline will receive the most bonus points.
-
-     *Note*. The upload site will reject files larger than 1 MB, so please reduce your file to only the first 1,000 lines before uploading, e.g.,
-
-          python align | head -n1000 > output.txt
-
-  1. Your code. Send us a URL from which we can get the code and git revision
-     history (a link to a tarball will suffice, but you're free to send us a 
-     github link if you don't mind making your code public). This is due at the
-     deadline: when you upload your final answer, send us the code.
-     You are free to extend the code we provide or roll your own in whatever
-     langugage you like, but the code should be self-contained, 
-     self-documenting, and easy to use. 
-  1. A clear, mathematical description of your algorithm and its motivation
-     written in scientific style. This needn't be long, but it should be
-     clear enough that one of your fellow students could re-implement it 
-     exactly. We will review examples in class before the due date.
+* You must work with a group, and only one group can work on each
+  extension. We will start group sign-ups in class on Wednesday,
+  February 11.
+* Everyone in the group will receive the same grade on the assignment.
+* Your group grade will be based on the quality and content of your
+  final presentation, as well as on a review of the code that you submit.
+* You are encouraged to post early (and often!) on Piazza sharing your
+current progress on the development set. Some points will be awarded
+based on how well your final alignment system completes its task.
 * You may only use data or code resources other than the ones we
   provide _with advance permission_. We will ask you to make 
   your resources available to everyone. If you have a cool idea 
@@ -202,12 +173,32 @@ Ground Rules
   systems, to make evaluations fair. A few things are off-limits:
   Giza++, the Berkeley Aligner, or anything else that
   already does the alignment for you. You must write your
-  own code. If you want to do system combination, join
-  forces with your classmates.
+  own code.
+* If you want to do system combination, you can join
+  forces with your classmates for the "best system" points. Each group
+  will still be expected to give their own presentation.
+
+
+Presentations
+-
+Presentations will take place on the day that the project is due, and
+all group members will be expected to participate. You will have 15
+minutes total (12 minutes + 3 minutes for questions) to present. Your
+presentation should match the format of a research talk, and should include:
+1. The motivation for your extension. What limitations of IBM Model 1
+   does it attempt to improve on?
+2. A clear, mathematical description of your algorithm. You don't have
+   to go into detail on proofs, but your audience should be able to
+   understand the important parts of your approach.
+3. A quantitative summary of how well your approach worked.
+4. An qualitative analysis of the approach, and comments on what you
+   think would be the biggest next step to improve the alignments you generated.
+
 
 If you have any questions or you're confused about anything, just ask.
 
 *Credits: This assignment is adapted from one originally developed by 
 [Philipp Koehn](http://homepages.inf.ed.ac.uk/pkoehn/)
 and later modified by [John DeNero](http://www.denero.org/). It
-incorporates some ideas from [Chris Dyer](http://www.cs.cmu.edu/~cdyer).*
+incorporates some ideas from
+[Chris Dyer](http://www.cs.cmu.edu/~cdyer) and [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/).*
