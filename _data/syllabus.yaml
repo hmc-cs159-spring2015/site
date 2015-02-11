@@ -37,7 +37,9 @@ past:
     preview: 2
   -
     monday: 2015-02-09
+    mondayslides: slides/06_alignment1.pdf
     wednesday: 2015-02-11
+    wednesdayslides: slides/07_alignment2.pdf
     mondaylanguage: Tagalog (Michael)
     wednesdaylanguage: Dutch (James)
     title: Word Alignment
