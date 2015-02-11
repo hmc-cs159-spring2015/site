@@ -145,12 +145,14 @@ each of the options described below.
 Options
 -
 
-* Implement [a model that prefers to align words close to the diagonal](http://aclweb.org/anthology/N/N13/N13-1073.pdf).
-* Implement an [HMM alignment model](http://aclweb.org/anthology-new/C/C96/C96-2141.pdf).
-* Train a French-English model and an English-French model and [combine their predictions](http://aclweb.org/anthology-new/N/N06/N06-1014.pdf).
-* Train a [supervised discriminative alignment model](http://aclweb.org/anthology-new/P/P06/P06-1009.pdf) on the annotated development set.
-* Train an [unsupervised discriminative alignment model](http://aclweb.org/anthology-new/P/P11/P11-1042.pdf).
-
+* Team Diagonal (Josh, Ben, and Erin): Implement
+  [a model that prefers to align words close to the diagonal](http://aclweb.org/anthology/N/N13/N13-1073.pdf).
+* Team HMM (Hayden, Mai, Maury, Shannon): Implement an
+  [HMM alignment model](http://aclweb.org/anthology-new/C/C96/C96-2141.pdf).
+* Team Combination (Hannah, Tasman, Mechana): Train a French-English model and an English-French model and [combine their predictions](http://aclweb.org/anthology-new/N/N06/N06-1014.pdf).
+* Team Supervised Discriminative (Sisi, Emily, Michael): Train a [supervised discriminative alignment model](http://aclweb.org/anthology-new/P/P06/P06-1009.pdf) on the annotated development set.
+* Team Unsupervised Discriminative (Coline, Emma, James): Train an [unsupervised discriminative alignment model](http://aclweb.org/anthology-new/P/P11/P11-1042.pdf).
+ 
 If you get your extension working and want to try other things, you're
 welcome to, as long as you follow the ground rules:
 
