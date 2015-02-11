@@ -67,7 +67,7 @@ Once you've confirmed this, go to your fork's GitHub page, copy the clone URL on
 
     git clone https://github.com/hmc-cs159-spring2015/aligner-<option>.git
 
-where "<option>" is the name of the option team that you want to
+where "\<option\>" is the name of the option team that you want to
 join. (This page will be updated when the group code forks are available).
 
 In your code directory you will find a python program called
@@ -140,7 +140,10 @@ Developing a Model 1 aligner will be enough to eearn a passing grade. But alignm
 this assignment isn't for you to just implement a well-known algorithm. To 
 get full credit you **must** experiment with at least one additional
 model of your choice and present your findings. One team will work on
-each of the following options:
+each of the options described below.
+
+Options
+-
 
 * Implement [a model that prefers to align words close to the diagonal](http://aclweb.org/anthology/N/N13/N13-1073.pdf).
 * Implement an [HMM alignment model](http://aclweb.org/anthology-new/C/C96/C96-2141.pdf).
