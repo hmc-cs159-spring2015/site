@@ -107,7 +107,6 @@ past:
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
-    mondaylanguage: Esperanto (Jon)
     wednesdaylanguage: Norwegian (Erin)
     title: Evaluation
     reading: 
@@ -117,6 +116,7 @@ past:
     preview: 9
   - 
     monday: 2014-04-06
+    mondaylanguage: French (Tasman)
     wednesday: 2015-04-08
     title: Handling Synonyms
     reading:
@@ -131,6 +131,7 @@ past:
     monday: 2015-04-13
     wednesday: 2015-04-15
     mondaylanguage: German (Maury)
+    wednesdaylanguage: French (Sisi)
     title: Incorporating Syntax
     reading:
       -
@@ -142,7 +143,9 @@ past:
     preview: 11
   -
     monday: 2015-04-20
+    mondaylanguage: Dothraki (Hayden)
     wednesday: 2014-04-22
+    wednesdaylanguage: (Hannah)
     title: Advanced Topics / TBD
     reading:
     -
