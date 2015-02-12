@@ -1,0 +1,105 @@
+\documentclass[11pt,letterpaper,boxed]{hmcpset}
+
+\usepackage{savetrees}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+
+\DeclareUnicodeCharacter{2014}{\dash}
+
+\name{Name: \underline{\hspace{5cm}}}
+\class{CS159: Natural Language Processing}
+\assignment{PReview \#4}
+\duedate{Due in class Feb 16, 2015}
+
+\begin{document}
+
+\section*{Review} 
+\begin{problem}
+If you randomly pick a word from the Brown corpus ``mystery''
+category, what is the probability that the word is at least six
+letters long? What if you pick a word from the ``hobbies'' category? The ``government'' category?
+
+Use the fact that there are 57169 words in the mystery category, 82345
+words in the hobbies category, and 82345 words in the government
+category to calculate the marginal probability of a word chosen at
+random being at least six letters long if we combined all three of the
+above categories. 
+\end{problem}
+
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+ 
+\begin{problem}
+Again  using the Brown corpus ``government'' category, what is the
+probability that a word $w_i$ is at least six letters long given that
+the previous word $w_{i-1}$ is at least six letters long? Given that
+result, what can you conclude about the (in)dependence of the lengths
+of consecutive words in that data set?
+\end{problem}
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+
+\pagebreak
+
+\section*{Preview} 
+
+\begin{problem}
+Suppose that we have the following data points that we want to cluster
+with the k-means algorithm:
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{x} & \textbf{y} & assignment 1 & assignment 2 \\
+\hline
+1 & 4 & &  \\
+\hline  
+ 2 & 5 & & \\
+\hline  
+ 2 & 0 & & \\
+\hline  
+ 1 & 8 & &  \\
+\hline  
+ 0 & 2 & & \\
+\hline  
+ 3 & 2 & & \\
+\hline  
+ 3 & 5 & & \\
+\hline  
+ 4 & 6 & & \\
+\hline  
+ 5 & 4 & & \\
+\hline
+\end{tabular}
+
+For clustering into two groups, we will have two means. Suppose that
+we initialize them at $(1,0)$ and $(5,6)$:
+
+\begin{tabular}{|l|l|l|}
+\hline 
+\textbf{iteration} & center 1 & center 2 \\
+\hline
+0 & (1,0) & (5,6) \\
+\hline  
+ 1 & & \\
+\hline  
+ 2 & & \\
+\hline  
+ 3 & & \\
+\hline
+\end{tabular}
+
+Step through three iterations of the k-means algorithm. In the top
+table, indicate whether each point is assigned to cluster 1 or cluster
+2 in each iteration. In the bottom table, indicate what the
+newly-computed means are for each cluster. Use the rest of this page
+to show enough of your work for us to understand how you got your results.
+\end{problem}
+\begin{solution}
+\vspace{10cm}
+\end{solution}
+
+\end{document}
