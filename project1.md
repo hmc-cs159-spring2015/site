@@ -84,7 +84,7 @@ For any two sets $$X$$ and $$Y$$, $$\delta(X,Y)$$ will be a number between
 0 and 1. The baseline aligner will align any word pair with a 
 coefficient over 0.5. Run it on 1000 sentences:
 
-    python align --train 1000 --accuracy
+    python3 align.py --train 1000 --accuracy
 
 This compares the alignments against human-produced alignments, computing 
 [alignment error rate](http://aclweb.org/anthology-new/P/P00/P00-1056.pdf), 
@@ -92,7 +92,7 @@ which balances precision and recall. It will also show you the comparison
 in a grid. Look at the terrible output of this heuristic method -- it's 
 better than chance, but not any good. Try training on 10,000 sentences:
 
-    python align -n 10000 | python score-alignments 
+    python3 align.py --train 10000 --accuracy
 
 Performance should improve, but only slightly! Try changing the
 threshold for alignment. How does this affect alignment error rate?
