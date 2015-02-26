@@ -92,7 +92,7 @@ past:
     monday: 2015-03-09
     wednesday: 2014-03-11
     mondaylanguage: Slovak (Emily)
-    preview: 7
+    preview:
     title: Language Models
     reading:
       - 
@@ -108,7 +108,7 @@ past:
       -
         author: tbd
         title: tbd
-    preview: 8
+    preview: 7
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
@@ -118,7 +118,7 @@ past:
       -
         author: tbd
         title: tbd
-    preview: 9
+    preview: 8
   - 
     monday: 2014-04-06
     mondaylanguage: French (Tasman)
@@ -128,7 +128,7 @@ past:
       -
         author: tbd
         title: tbd
-    preview: 10
+    preview: 9
     projectnumber: 2
     projectwednesday: true
     projecttitle: Decoding
@@ -145,7 +145,7 @@ past:
       -
         author: NLTK Book
         title: Chapter 8
-    preview: 11
+    preview: 10
   -
     monday: 2015-04-20
     mondaylanguage: Dothraki (Hayden)
@@ -156,7 +156,7 @@ past:
     -
       author: tbd
       title: tbd
-    preview: 12
+    preview: 11
   -
     monday: 2014-04-27
     wednesday: 2014-04-29
@@ -165,7 +165,7 @@ past:
     -
       author: tbd
       title: tbd
-    preview: 13
+    preview: 12
     projectnumber: 3
     projectmonday: true
     projecttitle: Evaluation
