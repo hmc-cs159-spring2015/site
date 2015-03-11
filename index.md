@@ -30,6 +30,9 @@ Grutor
 Discussion Forum
 : [Piazza](https://piazza.com/class/i4ugmh3p8hx459)
 
+(Not quite In-Class) Worksheet
+: [Google Form](http://goo.gl/forms/2W35eriK0i)
+
 Time and place
 : MW 9:35-10:50, Sprague LSC
 
