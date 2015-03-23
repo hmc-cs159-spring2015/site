@@ -45,6 +45,7 @@ To get there, you'll need to generate several components:
 Define a language model module called LM in its own .py file. Your
 module should define one or more language model
 classes that support the following operations:
+
 - load(fname), which loads a saved model from the file <tt>fname</tt>.
 - store(fname), which saves the current model to the file <tt>fname</tt>.
 - train(fname), which trains the model on the text in the file <tt>fname</tt>.
