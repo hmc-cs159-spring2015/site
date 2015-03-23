@@ -4,11 +4,11 @@ img: rosetta
 img_url: http://www.flickr.com/photos/calotype46/6683293633/
 caption: Rosetta stone (credit&#59; calotype46)
 title: Project 2 | Decoding
-active_tab: homework
+active_tab: project
 -
 
 <div class="alert alert-info">
-This project is due in class Wednesday April 8th.
+  Due in-class Wednesday, April 8th.  
 </div>
 
 Decoding:  <span class="text-muted">Project 2</span>
@@ -187,3 +187,8 @@ You do not need any other data than what is provided. You should feel
 If you have any questions or you're confused about anything,
 <a href="https://piazza.com/class/i4ugmh3p8hx459">just ask</a>.
 
+*Credits: This assignment is adapted from one originally developed by 
+[Philipp Koehn](http://homepages.inf.ed.ac.uk/pkoehn/)
+and later modified by [John DeNero](http://www.denero.org/). It
+incorporates some ideas from
+[Chris Dyer](http://www.cs.cmu.edu/~cdyer) and [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/).*
