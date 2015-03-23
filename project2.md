@@ -45,11 +45,11 @@ To get there, you'll need to generate several components:
 Define a language model module called LM in its own .py file. Your
 module should define one or more language model
 classes that support the following operations:
-* load(fname), which loads a saved model from the file <tt>fname</tt>.
-* store(fname), which saves the current model to the file <tt>fname</tt>.
-* train(fname), which trains the model on the text in the file <tt>fname</tt>.
-* prob(word, context), which returns the probability of seeing the word word following the context context.
-* logprob(word, context), which returns the negative log probability of seeing the word word following the context context (you should feel free to re-use your prob function here!)
+- load(fname), which loads a saved model from the file <tt>fname</tt>.
+- store(fname), which saves the current model to the file <tt>fname</tt>.
+- train(fname), which trains the model on the text in the file <tt>fname</tt>.
+- prob(word, context), which returns the probability of seeing the word word following the context context.
+- logprob(word, context), which returns the negative log probability of seeing the word word following the context context (you should feel free to re-use your prob function here!)
 
 At its simplest, the language model can just calculate unigram
 probabilities (in which case the prob fucntion will ignore context), without any
