@@ -33,10 +33,11 @@ active_tab: syllabus
         {% endfor %}
       {% endif %}
   {% if lecture.mondaylanguage %}
-	<br/><a href="{{ lecture.mondaylanguage_slides }}">{{ lecture.mondaylanguage }}</a>
+	<a href="{{ lecture.mondaylanguage_slides }}">{{ lecture.mondaylanguage }}</a>
         {% endif %}
+        <br/>
   {% if lecture.wednesdaylanguage %}
-	<br/><a href="{{ lecture.wednesdaylanguage_slides }}">{{ lecture.wednesdaylanguage }}</a>
+	<a href="{{ lecture.wednesdaylanguage_slides }}">{{ lecture.wednesdaylanguage }}</a>
         {% endif %}
       </td>
 	  <td>
