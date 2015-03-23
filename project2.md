@@ -5,10 +5,10 @@ img_url: http://www.flickr.com/photos/calotype46/6683293633/
 caption: Rosetta stone (credit&#59; calotype46)
 title: Project 2 | Decoding
 active_tab: project
--
+---
 
 <div class="alert alert-info">
-  Due in-class Wednesday, April 8th.  
+  Due in-class Wednesday, April 8th. 
 </div>
 
 Decoding:  <span class="text-muted">Project 2</span>
