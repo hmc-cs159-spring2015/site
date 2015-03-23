@@ -82,16 +82,11 @@ Define a translation model module called TM in its own .py file. Your
 module should define one or more 
 classes that support the following operations:
 
-   * load(fname), which loads a saved model from the file
-     <tt>fname</tt>.
-   * store(fname), which saves the current model to the file <tt>fname</tt>.
-   * train(alignedSents), which trains on a set of aligned sentences
-   * prob(e, f), which returns the probability of the English word (or
-     phrase) e being generated as a translation of the Foreign word (or
-     phrase) f. 
-   * logprob(e, f), which returns the negative log probability of the English word (or
-     phrase) e being generated as a translation of the Foreign word (or
-     phrase) f. (You should feel free to re-use your prob function here!)
+* load(fname), which loads a saved model from the file <tt>fname</tt>.
+* store(fname), which saves the current model to the file <tt>fname</tt>.
+* train(alignedSents), which trains on a set of aligned sentences
+* prob(e, f), which returns the probability of the English word (or phrase) e being generated as a translation of the Foreign word (or phrase) f. 
+* logprob(e, f), which returns the negative log probability of the English word (or phrase) e being generated as a translation of the Foreign word (or phrase) f. (You should feel free to re-use your prob function here!)
 
 To get word alignments, you can use your code from Project 1 or one of the built-in alignment
 models in the nltk.align package, which implements IBM Models 1-3. You
