@@ -61,6 +61,8 @@ first, and changes to the base behavior of your class(es) will only
 have to be made once. Remember: if you find yourself copying and
 pasting code between classes, that's probably not a good sign! 
 
+You can train your language model on any of the English corpora included in NLTK, on the English side of the Europarl corpus, and/or on any other monolingual text data that you collect. If you collect new data, however, you are required to make it available to the other teams. That way, everyone is working with the same resources.
+
 As your language model gets more complicated, and/or as you
 train with more data, you'll want a way to save your model
 and re-load it. At that point, the load and save functions will make
