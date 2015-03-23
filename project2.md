@@ -81,6 +81,7 @@ n-gram language models that is still used today.
 Define a translation model module called TM in its own .py file. Your
 module should define one or more 
 classes that support the following operations:
+
    * load(fname), which loads a saved model from the file
      <tt>fname</tt>.
    * store(fname), which saves the current model to the file <tt>fname</tt>.
