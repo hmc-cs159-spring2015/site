@@ -111,8 +111,8 @@ past:
     reading:
       -
         author: Chen and Goodman
-        title: "An Empirical Study of Smoothing Techniques for Language Modeling" sections 1-3
-	url: http://www.speech.sri.com/projects/srilm/manpages/pdfs/chen-goodman-tr-10-98.pdf
+        title: An Empirical Study of Smoothing Techniques for Language Modeling sections 1-3
+        url: http://www.speech.sri.com/projects/srilm/manpages/pdfs/chen-goodman-tr-10-98.pdf
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
