@@ -1,0 +1,80 @@
+\documentclass[11pt,letterpaper,boxed]{hmcpset}
+
+\usepackage{savetrees}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\name{Name: \underline{\hspace{5cm}}}
+\class{CS159: Natural Language Processing}
+\assignment{PReview \#7}
+\duedate{Due in class Mar 30, 2015}
+
+\begin{document}
+
+\section*{Review} 
+Suppose we want to build a language model off of the following training
+text (also available \href{https://cs.hmc.edu/courses/2015/spring/cs159/resources/catHat.txt}{electronically}): 
+
+\begin{quote}
+The sun did not shine. It was too wet to play. So we sat in the house All that cold, cold, wet day. I sat there with Sally, we sat there we two. And I said, ``How I wish we had something to do!'' Too wet to go out and too cold to play ball. So we sat in the house. We did nothing at all. So all we could do was to Sit! Sit! Sit! Sit! And we did not like it. Not one little bit. And then something went BUMP! How that bump made us jump! We looked! Then we saw him step in on the mat! We looked! And we saw him! The Cat in the Hat! And he said to us, ``Why do you sit there like that?'' ``I know it is wet And the sun is not sunny. But we can have lots of good fun that is funny!'' ``I know some good games we could play,'' said the cat. ``I know some new tricks,'' said the Cat in the Hat. ``A lot of good tricks. I will show them to you. Your mother will not mind at all if I do.''
+\end{quote}
+
+Assume, too, that we pre-process the text by converting everything to
+lowercase and removing all punctuation (after we use it to separate
+sentences, of course!) 
+
+\begin{problem} 
+Give the counts of the bigrams ``the cat,''
+``with Sally,'' and ``we said'' under the following conditions:
+\begin{enumerate}
+    \item Un-smoothed (MLE) count
+    \item Add-one smoothing
+    \item Add-lambda smoothing, with lambda = 0.1
+    \item Witten-Bell smoothing
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+\vspace{5cm}
+\end{solution}
+ 
+\begin{problem}
+Describe the data structures that your group is using for the language
+model and translation model for project 2.
+\end{problem}
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+
+\pagebreak
+
+\section*{Preview} 
+
+
+\begin{problem}
+Read about at least one of the smoothing techniques (other than
+Witten-Bell) in the Chen and Goodman paper linked from Project
+2. Briefly describe the intuition behind that method, and how it
+modifies language model counts. 
+\end{problem}
+
+\begin{solution}
+\vspace{10cm}
+\end{solution}
+
+\begin{problem}
+Read Sections 1 and 2 of
+\href{http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf}{this
+  paper on Pharaoh}. List three questions you have after reading it.
+\end{problem}
+\begin{solution}
+\begin{enumerate}
+\item \vspace{2cm}
+\item \vspace{2 cm}
+\item \vspace{2 cm}
+\end{enumerate}
+\end{solution}
+\end{document}
