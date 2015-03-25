@@ -92,6 +92,10 @@ past:
     monday: 2015-03-09
     mondayslides: slides/13_languagemodels.pdf
     wednesday: 2014-03-11
+<<<<<<< HEAD
+    wednesdayslides: slides/14_lmsmoothing.pdf
+=======
+>>>>>>> d2f2e7f77ec24689809d31d6a1796fff8fdb671c
     mondaylanguage: Slovak (Emily)
     preview:
     title: Language Models
@@ -101,14 +105,27 @@ past:
         title: Chapter 6
   -
     monday: 2015-03-23
+<<<<<<< HEAD
+    mondayslides: slides/15_lmconcluded.pdf
+    wednesday: 2015-03-25
+    wednesdayslides: slides/16_decoding.pdf
+    mondaylanguage: Quechua (Josh)
+=======
     wednesday: 2015-03-25
     mondaylanguage: Josh ()
+>>>>>>> d2f2e7f77ec24689809d31d6a1796fff8fdb671c
     wednesdaylanguage: Swahili (Meghana)
     title: Decoding
     reading:
       -
+<<<<<<< HEAD
+        author: Chen and Goodman
+        title: "An Empirical Study of Smoothing Techniques for Language Modeling" sections 1-3
+	url: http://www.speech.sri.com/projects/srilm/manpages/pdfs/chen-goodman-tr-10-98.pdf
+=======
         author: tbd
         title: tbd
+>>>>>>> d2f2e7f77ec24689809d31d6a1796fff8fdb671c
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
