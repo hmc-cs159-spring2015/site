@@ -115,7 +115,48 @@ your overall performance!
 
 ## Decoder
 
-(To be filled in once we've talked about this in class!)
+Define a decoding module called Decoder in its own .py file. Your
+module should define one or more 
+classes that support the following operations:
+
+* setLM(model), which associates the decoder with a specific language
+model
+* setTM(model), which associates the decoder with a specific
+translation model
+* setDistortionConstant(alpha), which sets the constant used in
+calculating the cost of reordering
+* decode(fsent), which returns the most likely translation of the
+foreign sentence fsent
+* cost(fsent, esent), which returns the lowest cost path for
+  generating esent as a translation of fsent
+
+Your classes may, of course, define any other helper functions they
+need. 
+
+Your system may define a maximum sentence length that it will try to
+translate; in that case, the decode
+function should return "&lt; skipped
+&gt;" as the
+translation for any sentences that are longer than its maximum.
+
+To get full base credit for this part (which will get you to
+approximately a B on the project without any performance points), you
+should implement stack decoder that can translate sentences under the
+following conditions:
+
+* Reorderings with a length of at least 5 are allowed
+* Forward costs are estimated using translation and language model
+scores
+* Backward costs are calculated using translation and language model
+scores as well as distortion (reordering) scores
+* Maximum sentence length is at least 10.
+* The equivalent translation options we discussed with respect to recombination are identified, with the highest-cost
+  (lowest probability) option being eliminated from consideration.
+
+You can implement any additional
+pruning methods that will help your
+system's overall performance.
+
 
 This project will have a bit of a competitive aspect to it -- part of
 your grade will depend on how your output compares to that of other groups.
@@ -137,8 +178,14 @@ your grade will depend on how your output compares to that of other groups.
 </li>
 <li> You must turn in four things:
   <ol>
-  <li>Your translations of the entire dataset, added to your github
-  repository as <tt>translations.txt</tt>
+  <li>Your translations of test dataset, added to your github
+  repository as
+  <tt>translations.txt</tt> by 9pm
+  the night before the due
+  date. Your file should contain one
+  translated sentence per line;
+  sentences that your system skipped
+  should have the output &lt;skipped&gt;.
   </li>
   <li> Your trained language and translation models, stored in a
   format that your code can understand, added to your github
