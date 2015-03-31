@@ -113,6 +113,10 @@ past:
         author: Chen and Goodman
         title: An Empirical Study of Smoothing Techniques for Language Modeling sections 1-3
         url: http://www.speech.sri.com/projects/srilm/manpages/pdfs/chen-goodman-tr-10-98.pdf
+      -
+        author: Philipp Koehn
+	title: Pharaoh: A Beam Search Decoder for Phrase-Based Statistical Machine Translation Models
+	url: http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
@@ -120,18 +124,23 @@ past:
     title: Evaluation
     reading: 
       -
-        author: tbd
-        title: tbd
+        author: Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu
+        url: http://www.aclweb.org/anthology/P02-1040.pdf
+	title: BLEU: a Method for Automatic Evaluation of Machine Translation
+      -
+        url: https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf
+	title: A Study of Translation Edit Rate with Targeted Human Annotation
+        author: Matthew Snover, Bonnie Dorr, Richard Schwartz, Linnea Micciulla, and John Makhoul
     preview: 7
   - 
     monday: 2014-04-06
     mondaylanguage: French (Tasman)
     wednesday: 2015-04-08
-    title: Handling Synonyms
+    title: Part of Speech Tagging
     reading:
       -
-        author: tbd
-        title: tbd
+        author: MS
+        title: Chapter 10
     preview: 8
     projectnumber: 2
     projectwednesday: true
@@ -141,30 +150,28 @@ past:
     wednesday: 2015-04-15
     mondaylanguage: German (Maury)
     wednesdaylanguage: French (Sisi)
-    title: Incorporating Syntax
+    title: Syntacic Parsinc
     reading:
       -
         author: MS
-        title: Chapter 11, 12
-      -
-        author: NLTK Book
-        title: Chapter 8
+        title: Chapters 11, 12
     preview: 9
   -
     monday: 2015-04-20
     mondaylanguage: Dothraki (Hayden)
     wednesday: 2014-04-22
     wednesdaylanguage: (Hannah)
-    title: Advanced Topics / TBD
+    title: Sentiment Analysis
     reading:
     -
       author: tbd
+      url: http://www.cs.cornell.edu/people/pabo/movie-review-data/
       title: tbd
     preview: 10
   -
     monday: 2014-04-27
     wednesday: 2014-04-29
-    title: Current Topics in MT
+    title: Sentiment Analysis
     reading:
     -
       author: tbd
