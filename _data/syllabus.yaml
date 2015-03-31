@@ -115,8 +115,8 @@ past:
         url: http://www.speech.sri.com/projects/srilm/manpages/pdfs/chen-goodman-tr-10-98.pdf
       -
         author: Philipp Koehn
-	title: Pharaoh: A Beam Search Decoder for Phrase-Based Statistical Machine Translation Models
-	url: http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf
+        title: Pharaoh- A Beam Search Decoder for Phrase-Based Statistical Machine Translation Models
+        url: http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf
   -
     monday: 2015-03-30
     wednesday: 2015-04-01
@@ -126,10 +126,10 @@ past:
       -
         author: Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu
         url: http://www.aclweb.org/anthology/P02-1040.pdf
-	title: BLEU: a Method for Automatic Evaluation of Machine Translation
+        title: BLEU- a Method for Automatic Evaluation of Machine Translation
       -
         url: https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf
-	title: A Study of Translation Edit Rate with Targeted Human Annotation
+        title: A Study of Translation Edit Rate with Targeted Human Annotation
         author: Matthew Snover, Bonnie Dorr, Richard Schwartz, Linnea Micciulla, and John Makhoul
     preview: 7
   - 
