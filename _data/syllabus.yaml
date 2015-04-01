@@ -119,6 +119,7 @@ past:
         url: http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf
   -
     monday: 2015-03-30
+    mondayslides: slides/17_decoding.pdf
     wednesday: 2015-04-01
     wednesdaylanguage: Norwegian (Erin)
     title: Evaluation
