@@ -182,3 +182,8 @@ past:
     projectnumber: 3
     projectmonday: true
     projecttitle: Evaluation
+  -
+    monday: 2014-05-4
+    wednesday: 2014-05-6
+    title: Final Exam
+    preview: 12
