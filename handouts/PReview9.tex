@@ -1,0 +1,80 @@
+\documentclass[11pt,letterpaper,boxed]{hmcpset}
+
+\usepackage{savetrees}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\name{Name: \underline{\hspace{5cm}}}
+\class{CS159: Natural Language Processing}
+\assignment{PReview \#9}
+\duedate{Due in class Apr 15, 2015}
+
+\begin{document}
+
+\section*{Review} 
+ 
+\begin{problem}
+M\&S Exercise 10.17: Most of the triggering environments in Brill
+(1995a) refer to preceding context. Why? Would you expect the same
+tendency for languages other than English?
+\end{problem}
+\begin{solution}
+\vspace{8cm}
+\end{solution}
+
+\begin{problem}
+M\&S Exercise 10.18: The set of possible triggering environments for
+words and tags is different in (Brill 1995a). For example, ``one of
+the three preceding tags is X'' is admissible as a triggering
+environment, but not ``one of the three preceding words is X.'' What
+might be the reason for this difference? Consider the differences
+between the sizes of the search spaces for words and tags. 
+\end{problem}
+\begin{solution}
+\vspace{8cm}
+\end{solution}
+
+\pagebreak
+
+\section*{Preview} 
+The sentence ``Time flies like an arrow'' can be generated with the
+following Context Free Grammar:
+\begin{multicols}{2}
+
+\begin{align*}
+    \text{S} & \to \text{NP VP} \\
+    \text{NP} & \to \text{Noun} | \text{Det Noun} \\
+    \text{VP} & \to \text{Verb PP} \\
+    \text{PP} & \to \text{Prep NP} \\
+\end{align*}
+
+\begin{align*}
+    \text{Prep} & \to like \\
+    \text{Det} & \to an \\
+    \text{Verb} & \to flies \\
+    \text{Noun} & \to Time | arrow \\
+\end{align*}    
+
+\end{multicols}
+
+\begin{problem}
+Draw the tree for the resulting structure. You can draw the tree by
+hand, or use an online tool like \url{http://mshang.ca/syntree/} to
+generate an image for you.
+\end{problem}
+\begin{solution}
+\vspace{8cm}
+\end{solution}
+
+\begin{problem}
+List any new or modified rules we would need in our grammar to allow for two possible
+parses of the sentence ``Fruit flies like a banana''.
+\end{problem}
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+
+\end{document}
