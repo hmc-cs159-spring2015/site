@@ -137,7 +137,9 @@ past:
   - 
     monday: 2014-04-06
     mondaylanguage: French (Tasman)
+    mondayslides: slides/18_evaluation.pdf
     wednesday: 2015-04-08
+    wednesdayslides: slides/19_pos_tagging.pdf
     title: Part of Speech Tagging
     reading:
       -
