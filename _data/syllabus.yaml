@@ -181,7 +181,7 @@ past:
       title: tbd
     preview: 11
     projectnumber: 3
-    projectmonday: true
+    projectmonday: false
     projecttitle: Evaluation
   -
     monday: 2014-05-4
