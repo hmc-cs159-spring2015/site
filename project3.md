@@ -88,12 +88,12 @@ rank means that they are inversely correlated.
 You should also rank the test data, for which we did not provide human
 rankings. To do this, run the command:
 
-<tt>evaluate.py -r test/reference -s test/source test/system* &gt; test\_output.txt</tt>
+<tt>evaluate.py -r test/reference -s test/source test/system* &gt; test_output.txt</tt>
 
 You can confirm that the output is a valid ranking of the test data 
 using the check command:
 
-<tt>sanityCheck test\_output.txt</tt>
+<tt>sanityCheck test_output.txt</tt>
 
 Your ranking should be a total ordering of the systems &mdash; ties are not allowed.
 
