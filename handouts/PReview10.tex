@@ -1,0 +1,86 @@
+\documentclass[11pt,letterpaper,boxed]{hmcpset}
+
+\usepackage{savetrees}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\name{Name: \underline{\hspace{5cm}}}
+\class{CS159: Natural Language Processing}
+\assignment{PReview \#10}
+\duedate{Due in class Apr 20, 2015}
+
+\begin{document}
+
+\section*{Review} 
+ 
+The file \url{http://hmc-cs159-spring2015.github.io/site/handouts/viterbi.py} is partially impelemented for
+you. In particular, it uses the nltk brown corpus to build the
+transition and observation probabilities for an HMM. The decode()
+function is also partially implemented -- it initializes a DP table
+and follows back-pointers through the completed DP table to get the
+best POS tag sequence. 
+
+Your job is to fill in the actual DP part of the code. 
+
+\begin{problem}
+
+Accoring to your algorithm, what is the most likely tag sequence for
+each of the following?
+
+\begin{enumerate}
+    \item i see the sheep
+    \item the sheep is in the field
+    \item who went to the store with you
+    \item the plane will land on the land
+    \item the horse raced past the barn fell
+\end{enumerate}
+
+\end{problem}
+\begin{solution}
+
+\begin{enumerate}
+    \item \vspace{1cm}
+    \item \vspace{1cm}
+    \item \vspace{1cm}
+    \item \vspace{1cm}
+    \item \vspace{1cm}
+\end{enumerate}
+
+\end{solution}
+
+\pagebreak
+
+\section*{Preview} 
+Five reviews of the movie ``Frozen'' are linked from our course
+website: \url{http://hmc-cs159-spring2015.github.io/site/handouts/reviews.pdf}.
+
+\begin{problem}
+Based on the reviews, can you predict what rating (on a 1-5 scale)
+each reviewer gave the movie? Briefly justify your choice for each.
+\end{problem}
+\begin{solution}
+
+\begin{description}
+    \item {Review 1} \vspace{2cm}
+    \item {Review 2} \vspace{2cm}
+    \item {Review 3} \vspace{2cm}
+    \item {Review 4} \vspace{2cm}
+    \item {Review 5} \vspace{2cm}
+\end{description}
+
+\end{solution}
+
+\begin{problem}
+If you were going to automate the process of predicting scores from
+the text, what features might you use? For example, are there specific
+words or phrases that are more likely to be associated with positive or
+negative reviews? Are there any problems you can foresee with using those features?
+\end{problem}
+\begin{solution}
+\vspace{6cm}
+\end{solution}
+
+\end{document}
