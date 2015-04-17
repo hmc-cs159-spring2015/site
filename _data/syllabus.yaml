@@ -151,9 +151,11 @@ past:
   -
     monday: 2015-04-13
     wednesday: 2015-04-15
-    mondaylanguage: German (Maury)
+    mondaylanguage: German (Maury) 
+    mondayslides: slides/20_pos_and_parsing.pdf
     wednesdaylanguage: French (Sisi)
-    title: Syntacic Parsinc
+    wednesdayslides: slides/21_parsing.pdf
+    title: Syntacic Parsing
     reading:
       -
         author: MS
