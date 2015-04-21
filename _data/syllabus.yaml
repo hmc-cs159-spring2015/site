@@ -164,14 +164,31 @@ past:
   -
     monday: 2015-04-20
     mondaylanguage: Dothraki (Hayden)
+    mondayslides: slides/22_sentiment.key
     wednesday: 2014-04-22
     wednesdaylanguage: (Hannah)
     title: Sentiment Analysis
     reading:
     -
-      author: tbd
-      url: http://www.cs.cornell.edu/people/pabo/movie-review-data/
-      title: tbd
+      author: S. Keshav
+      url: handouts/howToReadAPaper.pdf
+      title: How to Read a Paper
+    -
+      author: Brendan O'Connor et al.
+      url: handouts/oconnorEtAl.pdf
+      title: From Tweets to Polls: Linking Text Sentiment to Public Opinion Time Series
+    -
+      author: Bo Pang et al.
+      url: handouts/pangLi.pdf
+      title: Thumbs up? Sentiment Classification using Machine Learning Techniques
+    -
+      author: Ellen Riloff et al.
+      url: handouts/riloffWiebeWilson.pdf
+      title: Learning Subjective Nouns using Extraction Pattern Bootstrapping
+    -
+      author: Socher et al.
+      url: handouts/EMNLP2013_RNTN.pdf
+      title: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
     preview: 10
   -
     monday: 2014-04-27
