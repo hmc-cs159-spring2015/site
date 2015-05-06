@@ -194,10 +194,7 @@ past:
     monday: 2014-04-27
     wednesday: 2014-04-29
     title: Sentiment Analysis
-    reading:
-    -
-      author: tbd
-      title: tbd
+    mondayslides:handouts/sentiment_lab.pdf
     preview: 11
     projectnumber: 3
     projectmonday: false
